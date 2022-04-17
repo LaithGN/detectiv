@@ -39,4 +39,3 @@ scene_to_open = "res://scenes/scenes_one/scene_one.tscn"
 margin_top = 24.0
 margin_right = 79.0
 margin_bottom = 44.0
-text = "Exit"
