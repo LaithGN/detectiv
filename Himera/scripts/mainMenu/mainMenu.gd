@@ -1,9 +1,15 @@
 extends Control
 
+var l="res://Scenes/scenes_one/scene_one.tscn"
 
-func _ready():
-	for button in $Buttons.get_children():
-		button.connect("pressed",self,"change_scene",[button.scene_to_open])
 
-func change_scene(path):
-	SceneChanger.change_scene(path)
+func ready():
+	pass
+
+
+func _on_bt_start_game_pressed():
+	SceneChanger.change_scene(l)
+
+
+func _on_bt_exit_game_pressed():
+	get_tree().quit()
