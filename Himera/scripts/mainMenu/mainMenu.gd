@@ -1,7 +1,7 @@
 extends Control
 
 var l="res://Scenes/scenes_one/scene_one.tscn"
-
+var a
 
 func ready():
 	pass
