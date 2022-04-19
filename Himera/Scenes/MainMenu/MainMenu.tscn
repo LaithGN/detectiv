@@ -36,7 +36,7 @@ __meta__ = {
 }
 scene_to_open = "res://scenes/scenes_one/scene_one.tscn"
 
-[node name="Button" type="Button" parent="Buttons"]
+[node name="bt_exit_game" type="Button" parent="Buttons"]
 margin_top = 24.0
 margin_right = 79.0
 margin_bottom = 44.0
