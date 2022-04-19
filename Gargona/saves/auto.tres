@@ -1,0 +1,27 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://addons/Rakugo/lib/resources/store_stack.gd" type="Script" id=1]
+[ext_resource path="res://addons/Rakugo/lib/resources/store.gd" type="Script" id=2]
+
+[sub_resource type="Resource" id=1]
+script = ExtResource( 2 )
+game_version = "3.2.1"
+rakugo_version = "3.2.1"
+properties = {
+"current_dialogue": "TutorialDialogue",
+"current_dialogue_event_stack": [ [ "intro", 0, 0, [  ] ] ],
+"current_dialogue_script_version": 2006636036,
+"current_scene": "Tutorial",
+"dialogue_class_script_version": 139151058,
+"event_played": {
+},
+"history": [  ],
+"scene": "",
+"showable_shown": {
+}
+}
+
+[resource]
+script = ExtResource( 1 )
+stack = [ SubResource( 1 ) ]
+current_id = 0

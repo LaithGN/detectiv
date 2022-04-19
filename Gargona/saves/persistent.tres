@@ -1,0 +1,33 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/Rakugo/lib/resources/store.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+game_version = "3.2.1"
+rakugo_version = "3.2.1"
+properties = {
+"global_history": {
+778694636: true,
+820754571: true,
+1124244449: true,
+1287345831: true,
+1334764689: true,
+1441008520: true,
+1928707269: true,
+2295921381: true,
+2528414717: true,
+3095198765: true,
+3174695708: true,
+3242058663: true,
+3965146297: true
+},
+"settings": {
+"display/window/size/height": 720.0,
+"display/window/size/maximized": false,
+"display/window/size/width": 1280.0,
+"rakugo/default/delays/typing_effect_delay": 0.1,
+"rakugo/saves/current_page": 1,
+"rakugo/saves/skip_naming": true
+}
+}
