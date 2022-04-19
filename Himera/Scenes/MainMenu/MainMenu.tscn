@@ -44,3 +44,4 @@ text = "Exit"
 script = ExtResource( 4 )
 
 [connection signal="pressed" from="Buttons/bt_start_game" to="." method="_on_bt_start_game_pressed"]
+[connection signal="pressed" from="Buttons/bt_exit_game" to="." method="_on_bt_exit_game_pressed"]
